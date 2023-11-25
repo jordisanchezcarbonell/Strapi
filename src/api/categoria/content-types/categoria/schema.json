@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "singularName": "categoria",
+    "pluralName": "categorias",
+    "displayName": "categoria",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "Anti-Materiel Rifle",
+        "Assault Rifle"
+      ]
+    },
+    "armas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::arma.arma",
+      "mappedBy": "categoria"
+    }
+  }
+}
