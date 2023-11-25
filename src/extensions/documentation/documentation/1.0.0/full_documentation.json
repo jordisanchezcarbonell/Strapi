@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-11-25T14:31:51.371Z"
+    "x-generation-date": "2023-11-25T17:46:14.478Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -828,12 +828,11 @@
                   "attributes": {
                     "type": "object",
                     "properties": {
-                      "categoria": {
-                        "type": "string",
-                        "enum": [
-                          "Anti-Materiel Rifle",
-                          "Assault Rifle"
-                        ]
+                      "titulo": {
+                        "type": "string"
+                      },
+                      "slug": {
+                        "type": "string"
                       },
                       "armas": {
                         "type": "object",
@@ -1201,12 +1200,11 @@
           "data": {
             "type": "object",
             "properties": {
-              "categoria": {
-                "type": "string",
-                "enum": [
-                  "Anti-Materiel Rifle",
-                  "Assault Rifle"
-                ]
+              "titulo": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
               },
               "armas": {
                 "type": "array",
@@ -1275,12 +1273,11 @@
       "Categoria": {
         "type": "object",
         "properties": {
-          "categoria": {
-            "type": "string",
-            "enum": [
-              "Anti-Materiel Rifle",
-              "Assault Rifle"
-            ]
+          "titulo": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
           },
           "armas": {
             "type": "object",
@@ -1942,12 +1939,11 @@
                                 "attributes": {
                                   "type": "object",
                                   "properties": {
-                                    "categoria": {
-                                      "type": "string",
-                                      "enum": [
-                                        "Anti-Materiel Rifle",
-                                        "Assault Rifle"
-                                      ]
+                                    "titulo": {
+                                      "type": "string"
+                                    },
+                                    "slug": {
+                                      "type": "string"
                                     },
                                     "armas": {
                                       "type": "object",

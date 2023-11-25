@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "categoria": {
-      "type": "enumeration",
-      "enum": [
-        "Anti-Materiel Rifle",
-        "Assault Rifle"
-      ]
+    "titulo": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titulo"
     },
     "armas": {
       "type": "relation",
